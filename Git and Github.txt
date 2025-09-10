@@ -1,0 +1,31 @@
+Git is a version control system which contains the tools to track the changes in your code
+
+Git helps in tracking the history of the code in chronology, and also allows collaborative work
+
+Github is a website where developers can push their code through git. 
+
+when changes are final, we commit the changges, so we first add the changes -> then we commit those changes
+
+once we initialised the git, you can configure your account using the commands 
+// git config --global.uername "username"
+// git config --global.email "email"
+you can check your details using 
+// git config --list
+
+whenever we work on any project we clone the repository (a repository is nothing but a folder)
+to do that we copy  the https the link and then use the git clone command 
+git clone <url>
+we can also use the cd command to change directory, clear command clears the terminal and ls gives the list of the files in the repository
+ls -a prints the names of the files including the hidden files
+
+modified -> the added file has a change which is not commited yet
+untracked -> the file has not been added yet
+staged -> ready to commit
+unmodified - > unchanged
+
+git add <file name> to add the file, if you want to add all files git add . 
+you can commit and add some message using git commit -m "the message"
+
+the original repo which we cloned is known as origin
+
+you need to come out of the directory you enter cd .. 
